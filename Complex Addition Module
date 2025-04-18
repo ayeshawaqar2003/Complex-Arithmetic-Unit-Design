@@ -1,0 +1,7 @@
+module complex_adder (
+    input signed [15:0] a, b, c, d,
+    output signed [15:0] w, x
+);
+    assign w = a + c;  // Real part: w = a + c
+    assign x = b + d;  // Imaginary part: x = b + d
+endmodule
